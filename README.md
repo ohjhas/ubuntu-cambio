@@ -17,8 +17,9 @@ Go into the LiveCD
 
 Open a terminal and run:
 
+```
 sudo preparetoinstall
-
+```
 
 This command will download necessary files so installation won't fail (It will download 32 bit GRUB Binaries so the 32 bit bootloader will bot x64 OS)
 
@@ -48,10 +49,12 @@ https://github.com/onitake/gsl-firmware
 
 Run xinput_calibrator under the original screen rotation; touch (preferably using a stylus) each one of the 4 corners on the screen to generate the calibration matrix:
 
+```
 xrandr --orientation normal
 
 ./xlibinput_calibrator --show-xinput-cmd
 
 xrandr --orientation right
+```
 
 The touchscreen should be now calibrated; update the udev settings with the values displayed by xlibinput_calibrator for the xinput command.
