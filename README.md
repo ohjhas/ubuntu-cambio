@@ -52,7 +52,7 @@ Run xinput_calibrator under the original screen rotation; touch (preferably usin
 ```
 xrandr --orientation normal
 
-./xlibinput_calibrator --show-xinput-cmd
+xlibinput_calibrator --show-xinput-cmd
 
 xrandr --orientation right
 ```
