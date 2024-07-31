@@ -42,3 +42,16 @@ https://linuxiumcomau.blogspot.com/2022/05/adding-32-bit-grub-bootloader-to-boot
 https://github.com/onitake/gsl-firmware
 
 # Workarounds
+
+
+# Calibrating
+
+Run xinput_calibrator under the original screen rotation; touch (preferably using a stylus) each one of the 4 corners on the screen to generate the calibration matrix:
+
+xrandr --orientation normal
+
+./xlibinput_calibrator --show-xinput-cmd
+
+xrandr --orientation right
+
+The touchscreen should be now calibrated; update the udev settings with the values displayed by xlibinput_calibrator for the xinput command.
