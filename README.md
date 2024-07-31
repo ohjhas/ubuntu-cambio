@@ -6,6 +6,7 @@ Custom Ubuntu 22.04 iso to install on the MS Surface Clone RCA Cambio W101 V2 th
 ![image](https://github.com/user-attachments/assets/9d30671b-f657-4e2f-9591-7af6b86a6cb1)
 
 # How to install
+Go to Firmware Setup>Advanced>Thermal And disable SOC Board Sensor, you can reenable it after installing
 
 Boot into the USB drive with the iso flashed on it
 
