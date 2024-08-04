@@ -1,6 +1,8 @@
 # Ubuntu Cambio
 Custom Ubuntu 22.04 iso to install on the MS Surface Clone RCA Cambio W101 V2 that comes with all stuff, like SileadTouchScreen Drivers, or other things.
 
+Note: i will not upload anything until i fix the rotation issue, i want it to work out of the box with all stuff (anyways i will keep the wifi bug cuz idk how to solve that)
+
 # Tablet Images
 ![image](https://github.com/user-attachments/assets/6e3e5650-c788-470a-9db7-b010d2950200)
 ![image](https://github.com/user-attachments/assets/9d30671b-f657-4e2f-9591-7af6b86a6cb1)
